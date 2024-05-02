@@ -25,7 +25,7 @@ for line in handle:
             key=words[1]
         mail_count[key]=mail_count.get(key,0) + 1
 
-#print(mail_count)
+print(mail_count)
 
 bigcount = None
 bigword = None
